@@ -1,2 +1,30 @@
-$waldoBlue: #00A5E5;
-$waldoRed: #EC1B30;
+$teal: #7CCECD;
+$red: #ED3030;
+$blue: #427BBF;
+
+body {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+body, header, section, article {
+    margin: 0;
+}
+
+body {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.logo {
+    border-bottom: 3px solid $red;
+    margin-bottom: 10px;
+}
+
+section {
+    background-image: url("../images/murraymap.gif");
+    border: 5px solid $blue;
+    min-height: 650px;
+    background-image: no-repeat;
+    background-size: 100%;
+}
