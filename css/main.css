@@ -16,6 +16,12 @@ body {
 section {
   background-image: url("../images/murraymap.gif");
   border: 5px solid #427BBF;
-  min-height: 650px;
+  min-height: 635px;
   background-image: no-repeat;
   background-size: 100%; }
+
+.icon {
+  color: #ED3030;
+  width: 7%;
+  font-size: 40px;
+  display: inline-block; }

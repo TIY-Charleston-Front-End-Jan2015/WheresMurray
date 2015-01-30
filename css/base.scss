@@ -24,7 +24,15 @@ body {
 section {
     background-image: url("../images/murraymap.gif");
     border: 5px solid $blue;
-    min-height: 650px;
+    min-height: 635px;
     background-image: no-repeat;
     background-size: 100%;
+}
+.icon {
+    color: $red;
+    width: 7%;
+    font-size: 40px;
+    display: inline-block;
+
+
 }
