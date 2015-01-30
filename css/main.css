@@ -28,13 +28,6 @@ section {
   background-image: no-repeat;
   background-size: 100%; }
 
-<<<<<<< HEAD
-.icon {
-  color: #ED3030;
-  width: 7%;
-  font-size: 40px;
-  display: inline-block; }
-=======
 article {
   width: 10%; }
 
@@ -49,4 +42,9 @@ p {
 
 .hide {
   display: none; }
->>>>>>> e93bc4f85926e50b9ed4c1526f5a6bf8f9b9dc00
+
+.icon {
+  color: #ED3030;
+  width: 7%;
+  font-size: 40px;
+  display: inline-block; }
