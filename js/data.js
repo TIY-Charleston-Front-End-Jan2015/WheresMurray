@@ -11,7 +11,8 @@ var myObject = [
 {
   fact: 'He doesn\'t even book round-trip tickets. Bill buys one-ways and then decides when he wants to go home.'
 },
-  fact: '"Someone told me some secrets early on about living. You can do the very best you can when you\'re very, very relaxed. I realized the more fun I had, the better I did."'
+{
+  fact: '\"Someone told me some secrets early on about living. You can do the very best you can when you\'re very, very relaxed. I realized the more fun I had, the better I did.\"'
 },
 {
   fact: 'Murray is the fifth of nine children.'
