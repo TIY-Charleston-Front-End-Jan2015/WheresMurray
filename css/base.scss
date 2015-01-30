@@ -3,10 +3,17 @@ $red: #ED3030;
 $blue: #427BBF;
 
 body {
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    padding-bottom: 30px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+body, header, section, article {
+    margin: 0;
+}
+
+body {
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 .logo {
@@ -14,8 +21,10 @@ body {
     margin-bottom: 10px;
 }
 
-.map {
-    background-image: url("images/murraymap.gif");
-    margin-left: 6%;
+section {
+    background-image: url("../images/murraymap.gif");
     border: 5px solid $blue;
+    min-height: 650px;
+    background-image: no-repeat;
+    background-size: 100%;
 }
