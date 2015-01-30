@@ -43,6 +43,7 @@ p {
 .hide {
   display: none; }
 
+<<<<<<< HEAD
 .murrayicon div {
   color: #ED3030;
   font-size: 40px;
@@ -56,3 +57,10 @@ p {
 
 .empty1 {
   width: 30%; }
+=======
+.icon {
+  color: #ED3030;
+  width: 7%;
+  font-size: 40px;
+  display: inline-block; }
+>>>>>>> eb04ffd155745eb8fdf7424f834f6a3cbc80a294
