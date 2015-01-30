@@ -60,11 +60,18 @@ p {
   display: none;
 
 }
-.icon {
+.murrayicon div {
     color: $red;
-    width: 7%;
     font-size: 40px;
     display: inline-block;
+}
+.empty0 {
+    width: 40%;
+}
+.icon {
+    width: 30%;
 
-
+}
+.empty1 {
+    width: 30%;
 }
