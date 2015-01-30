@@ -1,6 +1,7 @@
 $teal: #7CCECD;
 $red: #ED3030;
 $blue: #427BBF;
+$font-family: 'Lato', sans-serif;
 
 body {
   margin: 0;
@@ -16,9 +17,20 @@ body {
   margin-left: 10%;
 }
 
+header {
+  border-bottom: 3px solid $red;
+  margin-bottom: 15px;
+}
+
 .logo {
-    border-bottom: 3px solid $red;
-    margin-bottom: 10px;
+  display: inline-block;
+  img {
+    float: left;
+    margin-right: 2%;
+  }
+  p {
+    padding: 50px;
+  }
 }
 
 section {
@@ -27,6 +39,26 @@ section {
     min-height: 635px;
     background-image: no-repeat;
     background-size: 100%;
+}
+
+article {
+  width: 10%;
+}
+
+h3 {
+  font-family: $font-family;
+  font-size: 20px;
+}
+
+p {
+  font-family: $font-family;
+  font-size: 14px;
+  color: $red;
+}
+
+.hide {
+  display: none;
+
 }
 .icon {
     color: $red;
