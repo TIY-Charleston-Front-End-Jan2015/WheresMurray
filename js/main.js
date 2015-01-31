@@ -36,74 +36,110 @@ $(document).ready(function() {
 
 
 // Click on BICYCLE slides fact down
-$(".fa-bicycle").eq(2).on("click", function(){
-  console.log("bicycle event");
-  $("p").slideDown(1000);
+$(".fa-bicycle").on("click", function(){
+    console.log("bicycle event");
+
+    var index = $(this).attr("data-index");
+    console.log(index);
+    $("data-index").slideDown(1000);
 });
 
 // Click on BUILDING??? What do we want it to do?
-$(".fa-building").eq().on("click", function(){
+$(".fa-building").on("click", function(){
   console.log("building event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on TICKET slides fact down
-$(".fa-ticket").eq(1).on("click", function(){
+$(".fa-ticket").on("click", function(){
   console.log("ticket event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on BUS slides fact down
-$(".fa-bus").eq(5).on("click", function(){
+$(".fa-bus").on("click", function(){
   console.log("bus event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on COFFEE slides fact down
-$(".fa-coffee").eq(7).on("click", function(){
+$(".fa-coffee").on("click", function(){
   console.log("coffee event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on CAMERA slides fact down
-$(".fa-camera").eq(8).on("click", function(){
+$(".fa-camera").on("click", function(){
   console.log("camera event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on PLANE slides fact down
-$(".fa-plane").eq(3).on("click", function(){
+$(".fa-plane").on("click", function(){
   console.log("plane event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on BED slides fact down
-$(".fa-bed").eq(6).on("click", function(){
+$(".fa-bed").on("click", function(){
   console.log("bed event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on BEER slides fact down
-$(".fa-beer").eq(4).on("click", function(){
+$(".fa-beer").on("click", function(){
   console.log("beer event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on CUTLERY??? What do we want it to do?
-$(".fa-cutlery").eq().on("click", function(){
+$(".fa-cutlery").on("click", function(){
   console.log("cutlery event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on HOSPITAL-O slides fact down
-$(".fa-hospital-o").eq(9).on("click", function(){
+$(".fa-hospital-o").on("click", function(){
   console.log("hospital-o event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
 // Click on SHIP slides fact down
-$(".fa-ship").eq(0).on("click", function(){
+$(".fa-ship").on("click", function(){
   console.log("ship event");
+
+  var index = $(this).attr("data-index");
+  console.log(index);
   $("p").slideDown(1000);
 });
 
