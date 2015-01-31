@@ -1,8 +1,8 @@
 var templates = {};
 
 templates.murrayFacts = [
-'<article class="slide-down">',
+'<article class="slide-down" data-index=<%= idx %>>',
 '<h3><%= "Murray Fact" %></h3>',
-'<p><%= myObject.fact %></p>',
+'<p><%= fact %></p>',
 '</article>'
 ].join('');
