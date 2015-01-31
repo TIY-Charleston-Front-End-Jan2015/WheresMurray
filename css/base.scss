@@ -64,14 +64,60 @@ p {
     color: $red;
     font-size: 40px;
     display: inline-block;
+    margin: 0;
 }
-.empty0 {
-    width: 40%;
+
+.murrayicon div {
+    display: inline-block;
+
 }
 .icon {
     width: 30%;
 
 }
+.empty0 {
+    margin: 0;
+    width: 40%;
+    height: 57px;
+}
+
 .empty1 {
+    margin: 0;
+    width: 20%;
+    height: 57px;
+}
+.empty {
+    margin: 0;
     width: 30%;
+    height: 57px;
+}
+.fa-ticket {
+    margin-left: 40%;
+}
+.fa-building {
+    margin-left: 5%;
+}
+
+.fa-bus {
+    margin-left: 20%;
+}
+
+.fa-camera {
+    margin-left: 35%;
+}
+
+.fa-plane {
+    margin-left: 50%;
+}
+
+.fa-beer {
+    margin-left:65%;
+}
+
+.fa-ship {
+    margin-left: 50%;
+}
+
+.fa-hospital-o {
+    margin-left: 20%;
 }
