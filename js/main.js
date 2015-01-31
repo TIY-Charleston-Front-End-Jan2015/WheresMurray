@@ -6,18 +6,23 @@ var murrayFacts = {
   },
 
   initStyling: function() {
-    murrayFacts.renderFacts(myObject);
+    murrayFacts.renderAllFacts(myObject);
   },
 
   initEvents: function() {
 
   },
 
-  renderFacts: function(myFacts, index, array) {
+  renderFact: function(myFact, index, array) {
+    myFact.idx = index;
     var factText = _.template(templates.murrayFacts);
-    console.log(factText, myFacts);
+    console.log(factText, myFact);
     // Will need to replace .fa
-    $('.fa').append(factText(myFacts));
+    $('i[data-index="'+ index +'"]').append(factText(myFact));
+  },
+
+  renderAllFacts: function(myFacts) {
+    _.each(myFacts, murrayFacts.renderFact);
   }
 };
 
@@ -36,13 +41,16 @@ $(document).ready(function() {
 
 
 // Click on BICYCLE slides fact down
-$(".fa-bicycle").eq(2).on("click", function(){
+$(".fa-bicycle").on("click", function(){
   console.log("bicycle event");
-  $("p").slideDown(1000);
+
+  var index = $(this).attr("data-index");
+  console.log(index);
+  $("data-index").slideDown(1000);
 });
 
 // Click on BUILDING??? What do we want it to do?
-$(".fa-building").eq().on("click", function(){
+$(".fa-building").on("click", function(){
   console.log("building event");
   $("p").slideDown(1000);
 });
