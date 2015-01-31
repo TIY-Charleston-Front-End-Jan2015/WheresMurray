@@ -1,4 +1,30 @@
+var murrayFacts = {
+
+  init: function() {
+    murrayFacts.initStyling();
+    murrayFacts.initEvents();
+  },
+
+  initStyling: function() {
+    murrayFacts.renderFacts(myObject);
+  },
+
+  initEvents: function() {
+
+  },
+
+  renderFacts: function(myFacts, index, array) {
+    var factText = _.template(templates.murrayFacts);
+    console.log(factText, myFacts);
+    // Will need to replace .fa
+    $('.fa').append(factText(myFacts));
+  }
+};
+
+
 $(document).ready(function() {
+
+  murrayFacts.init();
 
 // When mouse enters the logo img the instructions will fade in on the header
   $(".logo img").on("mouseenter", function(){

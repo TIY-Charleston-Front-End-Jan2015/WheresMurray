@@ -27,6 +27,6 @@ var myObject = [
   fact: 'In Kingpin Murray really bowled three strikes in a row in the scene where his character, Ernie McCracken does the same. The crowd\'s reaction was genuine and was actually for Murray. He has also bowled in leagues at The Alley in Charleston and regularly attends their parties.'
 },
 {
-  fact: 'Was bit by the groundhog twice on the Groundhog Day set.'
+  fact: 'Murry was bit by the groundhog twice on the Groundhog Day set.'
 }
 ];

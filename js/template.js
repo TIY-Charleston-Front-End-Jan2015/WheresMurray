@@ -1,8 +1,8 @@
 var templates = {};
 
 templates.murrayFacts = [
-'<article class="hide">',
+'<article class="slide-down">',
 '<h3><%= "Murray Fact" %></h3>',
-'<p><%= fact %></p>',
+'<p><%= myObject.fact %></p>',
 '</article>'
 ].join('');

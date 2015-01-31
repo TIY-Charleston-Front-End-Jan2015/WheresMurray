@@ -40,7 +40,7 @@ p {
   font-size: 14px;
   color: #ED3030; }
 
-.hide {
+.fade-in, .slide-down {
   display: none; }
 
 .icon {
