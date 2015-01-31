@@ -50,7 +50,7 @@ $(".fa-building").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on TICKET slides fact down
@@ -59,7 +59,7 @@ $(".fa-ticket").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on BUS slides fact down
@@ -68,7 +68,7 @@ $(".fa-bus").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on COFFEE slides fact down
@@ -77,7 +77,7 @@ $(".fa-coffee").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on CAMERA slides fact down
@@ -86,7 +86,7 @@ $(".fa-camera").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on PLANE slides fact down
@@ -95,7 +95,7 @@ $(".fa-plane").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on BED slides fact down
@@ -104,7 +104,7 @@ $(".fa-bed").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on BEER slides fact down
@@ -113,7 +113,7 @@ $(".fa-beer").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on CUTLERY??? What do we want it to do?
@@ -122,7 +122,7 @@ $(".fa-cutlery").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on HOSPITAL-O slides fact down
@@ -131,7 +131,7 @@ $(".fa-hospital-o").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 // Click on SHIP slides fact down
@@ -140,7 +140,7 @@ $(".fa-ship").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  $("p").slideDown(1000);
+  $("data-index").slideDown(1000);
 });
 
 
