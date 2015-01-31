@@ -43,24 +43,53 @@ p {
 .hide {
   display: none; }
 
-<<<<<<< HEAD
-.murrayicon div {
+.icon {
   color: #ED3030;
   font-size: 40px;
+  display: inline-block;
+  margin: 0; }
+
+.murrayicon div {
   display: inline-block; }
+
+.icon {
+  width: 30%; }
 
 .empty0 {
-  width: 40%; }
-
-.icon {
-  width: 30%; }
+  margin: 0;
+  width: 40%;
+  height: 57px; }
 
 .empty1 {
-  width: 30%; }
-=======
-.icon {
-  color: #ED3030;
-  width: 7%;
-  font-size: 40px;
-  display: inline-block; }
->>>>>>> eb04ffd155745eb8fdf7424f834f6a3cbc80a294
+  margin: 0;
+  width: 20%;
+  height: 57px; }
+
+.empty {
+  margin: 0;
+  width: 30%;
+  height: 57px; }
+
+.fa-ticket {
+  margin-left: 40%; }
+
+.fa-building {
+  margin-left: 5%; }
+
+.fa-bus {
+  margin-left: 20%; }
+
+.fa-camera {
+  margin-left: 35%; }
+
+.fa-plane {
+  margin-left: 50%; }
+
+.fa-beer {
+  margin-left: 65%; }
+
+.fa-ship {
+  margin-left: 50%; }
+
+.fa-hospital-o {
+  margin-left: 20%; }
