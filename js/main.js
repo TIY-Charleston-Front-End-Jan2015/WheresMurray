@@ -55,6 +55,7 @@ $(".fa-bicycle").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
+  
   $(".fa-bicycle").siblings().addClass("slide-down");
 });
 

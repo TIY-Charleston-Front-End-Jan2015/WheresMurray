@@ -41,7 +41,7 @@ p {
 .murrayicon h3, .murrayicon p {
   margin: 0; }
 
-.fade-in, .slide-down {
+.fade-in, .slide-down, .foundbill {
   display: none; }
 
 .icon {
@@ -94,3 +94,10 @@ p {
 
 .fa-hospital-o {
   margin-left: 20%; }
+
+.foundbill img {
+  border-radius: 50px;
+  border: 3px solid #ED3030; }
+  
+.foundbill h3 {
+  margin: 0; }
