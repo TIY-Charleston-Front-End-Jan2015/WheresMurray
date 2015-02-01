@@ -41,7 +41,7 @@ p {
 .murrayicon h3, .murrayicon p {
   margin: 0; }
 
-.fade-in, .slide-down, .foundbill {
+.fade-in, .slide-down {
   display: none; }
 
 .icon {
@@ -98,6 +98,5 @@ p {
 .foundbill img {
   border-radius: 50px;
   border: 3px solid #ED3030; }
-  
 .foundbill h3 {
   margin: 0; }
