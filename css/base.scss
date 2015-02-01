@@ -56,7 +56,7 @@ p {
   color: $red;
 }
 
-.fade-in, .slide-down {
+.fade-in, .slide-down, .foundbill {
   display: none;
 }
 
@@ -120,4 +120,16 @@ p {
 
 .fa-hospital-o {
     margin-left: 20%;
+}
+
+.foundbill {
+    img {
+    border-radius: 50px;
+    border: 3px solid $red;
+    }
+
+    h3 {
+        margin:0;
+
+    }
 }
