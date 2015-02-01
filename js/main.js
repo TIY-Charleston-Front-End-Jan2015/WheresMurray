@@ -47,6 +47,7 @@ $(".fa-bicycle").on("click", function(){
   var index = $(this).attr("data-index");
   console.log(index);
   $("data-index").slideDown(1000);
+
 });
 
 // Click on BUILDING??? What do we want it to do?
