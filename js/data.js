@@ -29,6 +29,7 @@ var myObject = [
 {
   fact: 'Murray was bit by the groundhog twice on the Groundhog Day set.'
 },
+{
   fact: 'One of Murrays first jobs was working as a golf caddy to pay for his private high school he attended.'
 }
 ];

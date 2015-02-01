@@ -17,7 +17,7 @@ var murrayFacts = {
     myFact.idx = index;
     var factText = _.template(templates.murrayFacts);
     console.log(factText, myFact);
-    // Will need to replace .fa
+
     $('i[data-index="'+ index +'"]').after(factText(myFact));
   },
 
@@ -55,7 +55,7 @@ $(".fa-bicycle").on("click", function(){
 
   var index = $(this).attr("data-index");
   console.log(index);
-  
+
   $(".fa-bicycle").siblings().addClass("slide-down");
 });
 
@@ -206,14 +206,14 @@ $(".fa-beer").on("click", function(){
 // Double click on CUTLERY shows Bill Murray
 $(".fa-cutlery").on("dblclick", function(){
   console.log("cutlery event");
-  $(".fa-cutlery").siblings().removeClass("foundbill");
+  $(".fa-cutlery").siblings().removeClass("slide-down");
 });
 
 // Click on CUTLERY hides fact
 $(".fa-cutlery").on("click", function(){
   console.log("cutlery event");
 
-  $(".fa-cutlery").siblings().addClass("foundbill");
+  $(".fa-cutlery").siblings().addClass("slide-down");
 });
 
 // Double click on HOSPITAL-O shows fact
